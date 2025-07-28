@@ -138,4 +138,16 @@ footer {
     margin: 1rem;
     padding: 1.2rem;
   }
+
+.whatsapp-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-icon {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
 }
