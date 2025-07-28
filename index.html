@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Oceanswift Resources Nig Ltd</title>
-  <meta name="description" content="Oceanswift Resources Nig Ltd — Licensed clearing & forwarding, import & export, logistics across major Nigerian ports and airports. 20+ years experience.">
-  <meta name="keywords" content="clearing and forwarding Nigeria, customs broker Lagos, import export logistics">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clearing &amp; Forwarding Agents in Nigeria | Oceanswift Resources</title>
+  <meta name="description" content="Oceanswift Resources Nig Ltd — Licensed customs clearing & forwarding, import/export, and logistics across major Nigerian seaports and airports. 20+ years’ expertise." />
+  <meta name="keywords" content="clearing and forwarding Nigeria, customs broker Lagos, import export logistics, Apapa port, Tin Can Island, Port Harcourt" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Oceanswift Resources | Clearing & Forwarding Agents in Nigeria">
-  <meta property="og:description" content="Swift, Secure & Seamless Clearing & Forwarding Services Across Nigeria. Licensed by Nigeria Customs.">
-  <meta property="og:image" content="images/banner.jpg">
-  <meta property="og:url" content="https://www.oceanswift.com.ng">
+  <meta property="og:title" content="Oceanswift Resources | Clearing & Forwarding Agents in Nigeria" />
+  <meta property="og:description" content="Swift, Secure & Seamless Clearing & Forwarding Services Across Nigeria. Licensed by Nigeria Customs." />
+  <meta property="og:image" content="images/hero-banner.png" />
+  <meta property="og:url" content="https://www.oceanswift.com.ng" />
 
   <!-- JSON-LD LocalBusiness -->
   <script type="application/ld+json">
@@ -19,7 +19,7 @@
     "@context":"https://schema.org",
     "@type":"LocalBusiness",
     "name":"Oceanswift Resources Nig Ltd",
-    "image":"images/logo-transparent.png",
+    "image":"images/logo.png",
     "address":{
       "@type":"PostalAddress",
       "streetAddress":"24 Burma Road, Apapa",
@@ -33,37 +33,13 @@
   }
   </script>
 
-  <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; color:#222; }
-    header { text-align:center; padding:20px; }
-    header img { max-height:80px; }
-    nav ul { list-style:none; padding:0; display:flex; justify-content:center; }
-    nav li { margin:0 15px; }
-    nav a { color:#006400; text-decoration:none; font-weight:bold; white-space:nowrap; }
-    .banner { position:relative; }
-    .banner img { width:100%; display:block; }
-    .banner-text { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); 
-                   background:rgba(0,0,0,0.5); color:#fff; padding:10px 20px; border-radius:5px; 
-                   font-size:2em; text-align:center; }
-    section { padding:40px 20px; max-width:1000px; margin:auto; }
-    .services, .ports { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; }
-    .btn { display:inline-block; padding:10px 20px; background:#006400; color:#fff; text-decoration:none; 
-           border-radius:4px; white-space:nowrap; }
-    .whatsapp-button { position:fixed; bottom:20px; right:20px; background:#25D366; color:#fff;
-                       border-radius:50%; width:60px; height:60px; display:flex; 
-                       align-items:center; justify-content:center; font-size:30px; z-index:1000; }
-    @media (max-width:600px) {
-      .banner-text { font-size:1.5em; padding:8px 12px; }
-      nav ul { flex-direction:column; }
-      nav li { margin:5px 0; }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Header & Nav -->
+  <!-- Header & Navigation -->
   <header>
-    <img src="images/logo-transparent.png" alt="Oceanswift Logo">
+    <img src="images/logo.png" alt="Oceanswift Logo" class="logo" />
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
@@ -77,21 +53,22 @@
   </header>
 
   <!-- Hero Banner -->
-  <div class="banner" id="home">
-    <img src="images/banner.jpg" alt="Seaport Logistics">
-    <div class="banner-text">
-      Swift, Secure &amp; Seamless Clearing &amp; Forwarding Services Across Nigeria
-      <div style="margin-top:10px;">
+  <section id="home" class="hero">
+    <img src="images/hero-banner.png" alt="Seaport Logistics" />
+    <div class="overlay">
+      <h1>Swift, Secure &amp; Seamless Clearing &amp; Forwarding Services Across Nigeria</h1>
+      <p>Licensed by Nigeria Customs • Apapa, Tin Can Island, Port Harcourt, Onne, MMIA &amp; more</p>
+      <div class="cta">
         <a href="https://wa.me/2348035802127" class="btn">Get a Quote</a>
         <a href="#services" class="btn">Our Services</a>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- About Us -->
-  <section id="about">
+  <section id="about" class="about">
     <h2>About Us</h2>
-    <p>Oceanswift Resources Nig Ltd is a customs-licensed clearing &amp; forwarding company founded by Oyebade Taiwo John, with over 20 years’ experience. Started at Iconbond Resources Ltd, now serving Apapa, Tin Can Island, Port Harcourt, Onne, Warri & more.</p>
+    <p>Oceanswift Resources Nig Ltd is a customs-licensed clearing &amp; forwarding company founded by Oyebade Taiwo John, with over 20 years’ experience in import/export, logistics, and general merchandise. Started at Iconbond Resources Ltd, we now serve all major seaports and airports across Nigeria.</p>
     <div class="ports">
       <div><strong>Seaports:</strong><br>Apapa, Tin Can Island, Port Harcourt, Onne, Warri, Calabar</div>
       <div><strong>Airports:</strong><br>Murtala Muhammed Int’l, Nnamdi Azikiwe Int’l, Port Harcourt Int’l, Mallam Aminu Kano Int’l</div>
@@ -99,54 +76,57 @@
   </section>
 
   <!-- Services -->
-  <section id="services">
+  <section id="services" class="services-section">
     <h2>Our Services</h2>
-    <div class="services">
-      <div>Customs Clearing &amp; Forwarding</div>
-      <div>Import &amp; Export Processing</div>
-      <div>Freight Logistics &amp; Transportation</div>
-      <div>Cargo Consolidation</div>
-      <div>Warehousing &amp; Storage</div>
-      <div>General Merchandise &amp; Trade Advisory</div>
+    <div class="services-grid">
+      <div><h3>Customs Clearing &amp; Forwarding</h3></div>
+      <div><h3>Import &amp; Export Processing</h3></div>
+      <div><h3>Freight Logistics &amp; Transportation</h3></div>
+      <div><h3>Cargo Consolidation</h3></div>
+      <div><h3>Warehousing &amp; Storage</h3></div>
+      <div><h3>Trade Advisory &amp; Support</h3></div>
     </div>
   </section>
 
   <!-- FAQ -->
-  <section id="faq">
+  <section id="faq" class="faq">
     <h2>Frequently Asked Questions</h2>
-    <!-- Paste your finalized FAQ block here -->
+    <!-- Insert your finalized FAQ block here -->
   </section>
 
   <!-- Blog -->
-  <section id="blog">
+  <section id="blog" class="blog-preview">
     <h2>From Our Blog</h2>
-    <p>Coming soon: expert articles on clearing, forwarding &amp; logistics in Nigeria.</p>
+    <p>Check back soon for expert articles on clearing, forwarding, and logistics in Nigeria.</p>
   </section>
 
   <!-- Contact Us -->
-  <section id="contact">
+  <section id="contact" class="contact">
     <h2>Contact Us</h2>
-    <p><strong>Address:</strong> 24 Burma Road, Apapa, Lagos, Nigeria</p>
-    <p><strong>Phone:</strong> 08035802127</p>
-    <p><strong>Email:</strong> oceanswiftltd@gmail.com</p>
-    <div style="margin:20px 0;">
-      <iframe src="https://maps.google.com/maps?q=24%20Burma%20Road%20Apapa%20Lagos&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="250" frameborder="0" style="border:0;border-radius:4px;" allowfullscreen></iframe>
+    <div class="contact-info">
+      <p><strong>Address:</strong> 24 Burma Road, Apapa, Lagos, Nigeria</p>
+      <p><strong>Phone:</strong> 08035802127</p>
+      <p><strong>Email:</strong> oceanswiftltd@gmail.com</p>
+      <p><strong>Working Hours:</strong> Mon–Sat: 08:00–18:00</p>
     </div>
-    <form style="max-width:400px;display:flex;flex-direction:column;gap:10px;">
-      <input type="text" placeholder="Your Name" required style="padding:10px;border:1px solid #ccc;border-radius:4px;">
-      <input type="email" placeholder="Your Email" required style="padding:10px;border:1px solid #ccc;border-radius:4px;">
-      <input type="tel" placeholder="Phone Number" required style="padding:10px;border:1px solid #ccc;border-radius:4px;">
-      <textarea rows="4" placeholder="Your Message" required style="padding:10px;border:1px solid #ccc;border-radius:4px;"></textarea>
+    <div class="map">
+      <iframe src="https://maps.google.com/maps?q=24%20Burma%20Road%20Apapa%20Lagos&amp;z=13&amp;output=embed" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen></iframe>
+    </div>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
       <button type="submit" class="btn">Send Message</button>
     </form>
   </section>
 
-  <!-- WhatsApp Button -->
+  <!-- WhatsApp Chat Button -->
   <a href="https://wa.me/2348035802127" class="whatsapp-button" target="_blank">📱</a>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Oceanswift Resources Nig Ltd. All rights reserved.</p>
+    <p>&copy; 2025 Oceanswift Resources Nig. Ltd. All rights reserved.</p>
   </footer>
 
 </body>
