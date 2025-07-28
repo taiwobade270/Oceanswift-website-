@@ -1,168 +1,138 @@
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body Styling */
+/* Reset and global styles */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
   background: url('site-background.png') no-repeat center center fixed;
   background-size: cover;
-  color: #333;
-  padding: 0;
+  color: #fff;
 }
 
-/* Header / Hero Section */
+/* Hero Header */
 .hero {
-  background-color: rgba(0, 51, 102, 0.9);
-  color: #fff;
-  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.7);
   text-align: center;
+  padding: 60px 20px;
+  position: relative;
 }
 
 .logo {
   width: 100px;
   height: auto;
-  margin-bottom: 15px;
-}
-
-.hero-text h1 {
-  font-size: 2em;
   margin-bottom: 10px;
 }
 
-.hero-text p {
-  font-size: 1.2em;
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+  color: #00bfff;
 }
 
-/* Banner Section */
+.hero-text p {
+  font-size: 1.2rem;
+  color: #eee;
+}
+
+/* Banner */
 .banner {
   text-align: center;
-  margin: 20px 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .banner-img {
   width: 100%;
+  height: auto;
   max-height: 300px;
   object-fit: cover;
 }
 
-/* About Us */
-.about {
-  background: rgba(255, 255, 255, 0.95);
+/* Sections */
+section {
   padding: 40px 20px;
-  text-align: left;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 20px;
+  border-radius: 10px;
 }
 
-.about h2 {
+section h2 {
+  color: #00bfff;
+  font-size: 2rem;
   margin-bottom: 20px;
-  color: #003366;
 }
 
-.timeline {
-  margin-top: 30px;
-  border-left: 4px solid #003366;
+section ul, section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: disc;
   padding-left: 20px;
 }
 
-.timeline-item {
-  margin-bottom: 20px;
+.timeline ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-.timeline-item h4 {
-  color: #003366;
-  margin-bottom: 5px;
-}
-
-/* Services Section */
-.services {
-  background: rgba(240, 248, 255, 0.95);
-  padding: 40px 20px;
-}
-
-.services h2 {
-  margin-bottom: 20px;
-  color: #003366;
-}
-
-.services ul {
-  list-style-type: square;
-  padding-left: 20px;
-}
-
-.services li {
-  margin-bottom: 10px;
-}
-
-/* FAQ Section */
-.faq {
-  background: rgba(255, 255, 255, 0.95);
-  padding: 40px 20px;
-}
-
-.faq h2 {
-  margin-bottom: 20px;
-  color: #003366;
+.timeline li {
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
 }
 
 .faq-item {
   margin-bottom: 20px;
 }
 
-.faq-item h4 {
-  margin-bottom: 5px;
-  color: #004080;
+.faq-item h3 {
+  color: #1e90ff;
+  font-size: 1.1rem;
 }
 
-/* Contact Section */
-.contact {
-  background: rgba(230, 240, 255, 0.95);
-  padding: 40px 20px;
-  text-align: left;
+.faq-item p {
+  margin: 5px 0 10px;
 }
 
-.contact h2 {
-  margin-bottom: 20px;
-  color: #003366;
-}
-
-.contact p {
-  margin-bottom: 10px;
-}
-
-.whatsapp {
+/* Contact */
+.contact .whatsapp {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #25D366;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
   margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.whatsapp:hover {
-  background-color: #1ebe57;
+.contact .whatsapp:hover {
+  background-color: #1ebe5b;
 }
 
 .map {
   margin-top: 20px;
-  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-/* Responsive Design */
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.9rem;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
   .hero-text h1 {
-    font-size: 1.5em;
+    font-size: 2rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
   }
 
   .banner-img {
-    height: 200px;
-  }
-
-  .logo {
-    width: 80px;
+    max-height: 200px;
   }
 }
